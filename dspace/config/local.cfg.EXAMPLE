@@ -67,6 +67,7 @@ solr.server = http://localhost:8080/solr
 # URL for connecting to database
 #    * Postgres template: jdbc:postgresql://localhost:5432/dspace
 #    * Oracle template: jdbc:oracle:thin:@//localhost:1521/xe
+#    * Oracle template non-SID: jdbc:oracle:thin:@localhost:1521/xe
 db.url = jdbc:postgresql://localhost:5432/dspace
 
 # JDBC Driver
